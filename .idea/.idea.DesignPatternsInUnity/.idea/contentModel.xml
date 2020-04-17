@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_DesignPatternsInUnity.-1183895928.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\360ed\Unity\tests\DesignPatternsInUnity" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Behavioral" t="Include">
+            <e p="Command" t="Include">
+              <e p="Client.cs" t="Include" />
+              <e p="Command.cs" t="Include" />
+              <e p="Invoker.cs" t="Include" />
+              <e p="KillSwitchCommand.cs" t="Include" />
+              <e p="RadioReceiver.cs" t="Include" />
+              <e p="RemoteControlDevice.cs" t="Include" />
+              <e p="TelevisionReceiver.cs" t="Include" />
+              <e p="TurnOffCommand.cs" t="Include" />
+              <e p="TurnOnCommand.cs" t="Include" />
+            </e>
+            <e p="Observer" t="Include">
+              <e p="Buzzer.cs" t="Include" />
+              <e p="Notifier.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
+              <e p="WarningLight.cs" t="Include" />
+            </e>
+            <e p="State" t="Include">
+              <e p="AlertShipState.cs" t="Include" />
+              <e p="Client.cs" t="Include" />
+              <e p="DisabledShipState.cs" t="Include" />
+              <e p="IShipState.cs" t="Include" />
+              <e p="NormalShipState.cs" t="Include" />
+              <e p="Ship.cs" t="Include" />
+            </e>
+            <e p="Strategy" t="Include">
+              <e p="Client.cs" t="Include" />
+              <e p="ISeekBehaviour.cs" t="Include" />
+              <e p="Missile.cs" t="Include" />
+              <e p="SeekWithGPS.cs" t="Include" />
+              <e p="SeekWithHeat.cs" t="Include" />
+              <e p="SeekWithSonar.cs" t="Include" />
+              <e p="SideWinder.cs" t="Include" />
+              <e p="Tomahawk.cs" t="Include" />
+              <e p="Torpedo.cs" t="Include" />
+            </e>
+            <e p="Visitor" t="Include">
+              <e p="Battery.cs" t="Include" />
+              <e p="Client.cs" t="Include" />
+              <e p="IRobotPart.cs" t="Include" />
+              <e p="IRobotPartVisitor.cs" t="Include" />
+              <e p="MechanicalArm.cs" t="Include" />
+              <e p="Robot.cs" t="Include" />
+              <e p="RobotPartActivateVisitor.cs" t="Include" />
+              <e p="RobotPartShutdownVisitor.cs" t="Include" />
+              <e p="ThermalImager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Creational" t="Include">
+            <e p="AbstractFactory" t="Include">
+              <e p="AbstractFactory.cs" t="Include" />
+              <e p="AnimalFactory.cs" t="Include" />
+              <e p="AnimalType.cs" t="Include" />
+              <e p="Beggar.cs" t="Include" />
+              <e p="Cat.cs" t="Include" />
+              <e p="Client.cs" t="Include" />
+              <e p="Dog.cs" t="Include" />
+              <e p="FactoryProducer.cs" t="Include" />
+              <e p="FactoryType.cs" t="Include" />
+              <e p="Farmer.cs" t="Include" />
+              <e p="HumanFactory.cs" t="Include" />
+              <e p="HumanType.cs" t="Include" />
+              <e p="IAnimal.cs" t="Include" />
+              <e p="IHuman.cs" t="Include" />
+              <e p="NPCSpawner.cs" t="Include" />
+              <e p="ShopOwner.cs" t="Include" />
+            </e>
+            <e p="Factory" t="Include">
+              <e p="Beggar.cs" t="Include" />
+              <e p="Client.cs" t="Include" />
+              <e p="Farmer.cs" t="Include" />
+              <e p="INPC.cs" t="Include" />
+              <e p="NPCFactory.cs" t="Include" />
+              <e p="NPCSpawner.cs" t="Include" />
+              <e p="NPCType.cs" t="Include" />
+              <e p="ShopOwner.cs" t="Include" />
+            </e>
+            <e p="Prototype" t="Include">
+              <e p="Client.cs" t="Include" />
+              <e p="Drone.cs" t="Include" />
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemySpawner.cs" t="Include" />
+              <e p="iCopyable.cs" t="Include" />
+              <e p="Sniper.cs" t="Include" />
+            </e>
+            <e p="Singleton" t="Include">
+              <e p="Client.cs" t="Include" />
+              <e p="GameManager.cs" t="Include" />
+              <e p="InventoryManager.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Structural" t="Include">
+            <e p="Adapter" t="Include">
+              <e p="Client.cs" t="Include" />
+              <e p="IOnlinePlayer.cs" t="Include" />
+              <e p="OnlinePlayer.cs" t="Include" />
+              <e p="OnlinePlayerClassAdapter.cs" t="Include" />
+              <e p="OnlinePlayerObjectAdapter.cs" t="Include" />
+            </e>
+            <e p="Facade" t="Include">
+              <e p="Client.cs" t="Include" />
+              <e p="CloudManager.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="PlayerData.cs" t="Include" />
+              <e p="SaveManager.cs" t="Include" />
+              <e p="ScoreManager.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+              <e p="UIManager.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DesignPatternsInUnity.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
